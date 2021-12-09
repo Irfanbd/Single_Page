@@ -9,7 +9,8 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url(pexels-johannes-plenio-1103970.jpg);
   background-size: cover;
-  background-position: center;
+  background-attachment: fixed;
+  background-position: relative;
 }
 .navbar {
   width: 85%;
@@ -95,4 +96,14 @@ button:hover span {
 }
 button:hover {
   border: none;
+}
+/**Services */
+.Services {
+  background-image: linear-gradient(
+      rgba(0, 24, 49, 0.75),
+      rgba(0, 24, 49, 0.75)
+    )
+    url(pexels-tan-danh-1329711.jpg);
+  background-size: cover;
+  background-position: relative;
 }
